@@ -123,5 +123,55 @@ button {
 
 .quote{
   background-color: #E5E7EB;
-  padding: 80px 256px;
+  padding: 80px 328px;
+}
+
+.quote-text,
+.attribution {
+  color: #1F2937;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  text-align: left;
+}
+
+.attribution {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.action {
+  margin: 64px 248px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 32px 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-button {
+  border: 2px solid #F9FAF8;
+}
+
+.action-title,
+.action-message {
+  color: #F9FAF8;
+}
+
+.action-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
